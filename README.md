@@ -12,6 +12,7 @@ The pipeline operates in two modular, fully automated phases:
 [ Legacy Data ] ──> ( 1. Extract ) ──> ( 2. Clean/Transform ) ──> [ SQLite Data Warehouse ]
                                                                              │
 [ Strategic Metrics ] <── ( 4. SQL Analytics Engine ) <── ( 3. Star Schema ) ┘
+
 Detailed Pipeline Phases
 Phase 1: Automated ETL Pipeline (Data Engineering)
 Extraction: Dynamically ingests raw transaction data from legacy file structures.
@@ -41,6 +42,7 @@ SQL Techniques: Multi-table JOINs, Aggregations (SUM, AVG), GROUP BY, HAVING, Ne
 Software Design: Modular architecture, automated pipeline orchestration, environment logging
 
 Repository Structure
+
 Plaintext
 end-to-end-retail-analytics/
 ├── src/
